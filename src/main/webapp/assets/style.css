@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Segoe UI, Arial, sans-serif; background: #f4f6f8; color: #222; }
+nav { display: flex; gap: 16px; align-items: center; padding: 12px 24px; background: #1f2937; color: #fff; flex-wrap: wrap; }
+nav a { color: #e5e7eb; text-decoration: none; }
+nav a:hover { color: #fff; text-decoration: underline; }
+nav .brand { font-weight: 700; font-size: 1.15rem; color: #fff; }
+nav .spacer { flex: 1; }
+main { max-width: 1000px; margin: 24px auto; padding: 0 16px; min-height: 70vh; }
+footer { text-align: center; color: #888; padding: 16px; font-size: .85rem; }
+h1 { margin-top: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 16px; }
+.card { background: #fff; border-radius: 8px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.08); display: flex; flex-direction: column; gap: 6px; }
+.card .prix { font-weight: 700; color: #0f766e; }
+.card .cat { font-size: .8rem; color: #6b7280; }
+.card form { margin-top: auto; display: flex; gap: 6px; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #f9fafb; }
+.btn, button { background: #0f766e; color: #fff; border: 0; padding: 8px 14px; border-radius: 6px; cursor: pointer; text-decoration: none; font-size: .9rem; display: inline-block; }
+.btn.danger, button.danger { background: #b91c1c; }
+.btn.sec { background: #6b7280; }
+input, select, textarea { padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; font: inherit; }
+input[type=number] { width: 70px; }
+.form { background: #fff; padding: 20px; border-radius: 8px; max-width: 480px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.form label { display: flex; flex-direction: column; gap: 4px; font-size: .9rem; }
+.erreur { background: #fee2e2; color: #991b1b; padding: 10px; border-radius: 6px; }
+.filtres { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.total { text-align: right; font-size: 1.2rem; margin: 16px 0; }
